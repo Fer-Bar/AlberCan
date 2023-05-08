@@ -14,7 +14,7 @@ const loadCarousel = () => {
             },
             600: {
                 items: 1,
-                nav: false,
+                nav: true,
             },
             1000: {
                 items: 1,

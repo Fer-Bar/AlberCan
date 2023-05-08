@@ -212,6 +212,7 @@ header .navbar .dropdown-menu .dropdown-item.active {
   line-height: 1.5;
   font-weight: 300;
 }
+
 .owl-carousel.home-slider .owl-dots {
   position: absolute;
   bottom: 100px;

@@ -191,7 +191,7 @@ header .navbar .dropdown-menu .dropdown-item.active {
   font-size: 40px;
   color: #fff;
 }
-.owl-carousel.home-slider .slider-item .slider-text h1 {
+.owl-carousel.home-slider .slider-item .slider-text h1{
   font-size: 40px;
   color: #fff;
   font-weight: 800 !important;
@@ -206,7 +206,7 @@ header .navbar .dropdown-menu .dropdown-item.active {
     font-size: 40px;
   }
 }
-.owl-carousel.home-slider .slider-item .slider-text h1 {
+.owl-carousel.home-slider .slider-item .slider-text p{
   font-size: 20px;
   color: #fff;
   line-height: 1.5;

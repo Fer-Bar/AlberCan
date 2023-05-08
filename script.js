@@ -1,4 +1,3 @@
-
 //Slider Initialzation
 
 $('.home-slider').owlcarousel({

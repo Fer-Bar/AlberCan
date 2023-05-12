@@ -268,11 +268,11 @@ header .navbar .dropdown-menu .dropdown-item.active {
   text-decoration: none;
   color: #bc5148;
   position: relative;
-  -webkit-box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 2.)!important;
-  box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 2.)!important;
+  -webkit-box-shadow: 0 3px 10px -2px rgba(0, 0, 0,0.2)!important;
+  box-shadow: 0 3px 10px -2px rgba(0, 0, 0,0.2)!important;
   border-radius: 0;
 }
-.accordion-item button .fa {
+.accordion-item h2 button .fa { 
   position: absolute;
   right: 20px;
   top: 50%;
@@ -285,23 +285,23 @@ header .navbar .dropdown-menu .dropdown-item.active {
 }
 .accordion-item h2 button:hover { 
   text-decoration: none;
-  -webkit-box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 2.)!important;
-  box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 2.)!important;
+  -webkit-box-shadow: 0 3px 10px -2px rgba(0, 0, 0,0.2)!important;
+  box-shadow: 0 3px 10px -2px rgba(0, 0, 0,0.2)!important;
 }
 .accordion-item h2 button.collapsed {
   color: #000;
 }
-.accordion-item h2 button.collapsed {
+.accordion-item h2 button.collapsed .fa {
   right: 20px;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.accordion-item h2 button:hover {
+.accordion-item h2 button.collapsed:hover {
   text-decoration: none;
-  -webkit-box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 2.)!important;
-  box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 2.)!important;
+  -webkit-box-shadow: 0 3px 10px -2px rgba(0, 0, 0,0.2)!important;
+  box-shadow: 0 3px 10px -2px rgba(0, 0, 0,0.2)!important;
 }
 .accordion-item .accordion-body {
   padding-top: 20px;

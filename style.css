@@ -2,7 +2,7 @@
 
 body {
   background: #fff;
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
@@ -275,9 +275,6 @@ header .navbar .dropdown-menu .dropdown-item.active {
 }
 
 /* acordeon - Video 2 */
-.section {
-  padding: 7em 0;
-}
 .btn.btn-primary {
   color: #fff;
   border-width: 2px;

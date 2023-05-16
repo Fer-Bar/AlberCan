@@ -125,8 +125,8 @@ header .navbar .dropdown-menu .dropdown-item.active {
   width: 100%;
 }
 
-.owl-carousel .owl.nav .owl-prev,
-.owl-carousel .owl.nav .owl-next {
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next {
   position: absolute;
   margin-top: 10px;
   -webkit-transform: translateY(-50%);
@@ -134,26 +134,26 @@ header .navbar .dropdown-menu .dropdown-item.active {
   transform: translateY(-50%);
 }
 
-.owl-carousel .owl.nav .owl-prev:hover,
-.owl-carousel .owl.nav .owl-prev:focus,
-.owl-carousel .owl.nav .owl-prev:active,
-.owl-carousel .owl.nav .owl-next:hover,
-.owl-carousel .owl.nav .owl-next:focus,
-.owl-carousel .owl.nav .owl-next:active {
+.owl-carousel .owl-nav .owl-prev:hover,
+.owl-carousel .owl-nav .owl-prev:focus,
+.owl-carousel .owl-nav .owl-prev:active,
+.owl-carousel .owl-nav .owl-next:hover,
+.owl-carousel .owl-nav .owl-next:focus,
+.owl-carousel .owl-nav .owl-next:active {
   outline: none;
 }
-
-.owl-carousel .owl.nav .owl-prev span:before,
-.owl-carousel .owl.nav .owl-next span:before {
+ /* Aca habia un before que no se que hace */
+.owl-carousel .owl-nav .owl-prev span,
+.owl-carousel .owl-nav .owl-next span {
   font-size: 40px;
 }
 
-.owl-carousel .owl.nav .owl-prev {
-  left: 30px !important;
+.owl-carousel .owl-nav .owl-prev {
+  left: 30px;
 }
 
-.owl-carousel .owl.nav .owl-prev {
-  right: 30px !important;
+.owl-carousel .owl-nav .owl-next {
+  right: 30px;
 }
 
 .owl-carousel .owl-dots {
@@ -186,7 +186,7 @@ header .navbar .dropdown-menu .dropdown-item.active {
 }
 
 .owl-carousel.home-slider .owl-nav button {
-  color: #fff;
+  color: #fff !important;
 }
 
 .owl-carousel.home-slider:focus .owl-nav,
@@ -232,14 +232,17 @@ header .navbar .dropdown-menu .dropdown-item.active {
   line-height: 1.2;
   text-transform: uppercase;
 }
+
 .cursive {
   font-family: "Sacramento", cursive;
 }
+
 @media (max-width: 991px) {
   .owl-carousel.home-slider .slider-item .slider-text h1 {
     font-size: 40px;
   }
 }
+
 .owl-carousel.home-slider .slider-item .slider-text p{
   font-size: 20px;
   color: #fff;

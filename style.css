@@ -87,7 +87,7 @@ header .navbar .dropdown-menu {
 header .navbar .dropdown-menu::before {
   bottom: 100px;
   left: 10%;
-  border: solid transparent;
+  border: solid transparent !important;
   content: " ";
   height: 0;
   width: 0;

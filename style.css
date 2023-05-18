@@ -405,6 +405,7 @@ header .navbar .dropdown-menu .dropdown-item.active {
 }
 
 .media-custom > a {
+  display: block;
   position: relative;
   overflow: hidden;
 }

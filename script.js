@@ -14,11 +14,13 @@ $('.home-slider.owl-carousel').owlCarousel({
         },
         600: {
             items: 1,
-            nav: true,
+            nav: false,
+            mouseDrag: false,
         },
         1000: {
             items: 1,
             nav: true,
+            mouseDrag: false,
         },
     }
 })

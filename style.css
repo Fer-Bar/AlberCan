@@ -349,3 +349,85 @@ header .navbar .dropdown-menu .dropdown-item.active {
 .accordion-button:focus {
   border-color: #fff;
 }
+/* video 3 */
+.heading{
+  color: #000;
+}
+.owl-carousel.major-carousel .owl-stage-outer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.owl-carousel.major-carousel .owl-nav .owl-prev,
+.owl-carousel.major-carousel .owl-nav .owl-next{
+  -webkit-transition: .3 all ease;
+  -o-transition: .3 all ease;
+  transition: .3 all ease;
+  color: #495050;
+}
+.owl-carousel.major-carousel .owl-nav .owl-prev:hover,
+.owl-carousel.major-carousel .owl-nav .owl-prev:focus,
+.owl-carousel.major-carousel .owl-nav .owl-next:hover,
+.owl-carousel.major-carousel .owl-nav .owl-next:focus{
+  color: #868e96;
+  outline: none;
+}
+.owl-carousel.major-carousel .owl-nav .owl-prev.disabled,
+.owl-carousel.major-carousel .owl-nav .owl-next.disabled{
+  color: #dee2e6;
+}
+.owl-carousel.major-carousel .owl-nav .owl-prev {
+  left: -60px!important;
+}
+.owl-carousel.major-carousel .owl-nav .owl-prev {
+  right: -60px!important;
+}
+.owl-carousel.major-carousel .owl-dots {
+  bottom: -30px;
+  position: relative;
+}
+.media-custom {
+  background: #fff;
+  -webkit-transition: .3 all ease;
+  -o-transition: .3 all ease;
+  transition: .3 all ease;
+  margin-bottom: 30px;
+  position: relative;
+  top: 0;
+}
+.media-custom > a {
+  position: relative;
+  overflow: hidden;
+}
+.media-custom img {
+  height: 400px;
+  object-fit: cover;
+  -webkit-transition: .3 all ease;
+  -o-transition: .3 all ease;
+  transition: .3 all ease;
+}
+.media-custom:focus, .media-custom:hover {
+  top: -2px;
+  -webkit-box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.2);
+}
+.media-custom:focus img, .media-custom:hover img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.media-custom .media-body {
+  padding: 30px;
+}
+.media-custom .media-body h3 {
+  font-size: 20px;
+}
+.text-black {
+  color: #000;
+}
+.age {
+  font-size: 14px;
+  color: #868e96;
+}
+.media-custom .media-body p:last-child {
+  margin-bottom: 0;
+}

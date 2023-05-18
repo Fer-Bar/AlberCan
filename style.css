@@ -11,9 +11,9 @@ body {
 
 a {
   text-decoration: none;
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
 }
 
 a:hover {
@@ -263,9 +263,9 @@ header .navbar .dropdown-menu .dropdown-item.active {
   border: 2px solid rgb(255, 255, 255, 0.5);
   outline: none !important;
   position: relative;
-  -webkit-transition: 0.3 all ease;
-  -o-transition: 0.3 all ease;
-  transition: 0.3 all ease;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
 }
 .owl-carousel.home-slider .owl-dots .owl-dot.active {
   border: 2px solid #fff;
@@ -307,9 +307,9 @@ header .navbar .dropdown-menu .dropdown-item.active {
   -webkit-transform: translateY(-50%) rotate(-180deg);
   -ms-transform: translateY(-50%) rotate(-180deg);
   transform: translateY(-50%) rotate(-180deg);
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
 }
 
 .accordion-item h2 button:hover { 
@@ -362,9 +362,9 @@ header .navbar .dropdown-menu .dropdown-item.active {
 
 .owl-carousel.major-carousel .owl-nav .owl-prev,
 .owl-carousel.major-carousel .owl-nav .owl-next{
-  -webkit-transition: .3 all ease;
-  -o-transition: .3 all ease;
-  transition: .3 all ease;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
   color: #495050;
 }
 
@@ -396,9 +396,9 @@ header .navbar .dropdown-menu .dropdown-item.active {
 
 .media-custom {
   background: #fff;
-  -webkit-transition: .3 all ease;
-  -o-transition: .3 all ease;
-  transition: .3 all ease;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
   margin-bottom: 30px;
   position: relative;
   top: 0;
@@ -413,9 +413,9 @@ header .navbar .dropdown-menu .dropdown-item.active {
 .media-custom img {
   height: 400px;
   object-fit: cover;
-  -webkit-transition: .3 all ease;
-  -o-transition: .3 all ease;
-  transition: .3 all ease;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
 }
 
 .media-custom:focus, .media-custom:hover {

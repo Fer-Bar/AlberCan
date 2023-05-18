@@ -13,11 +13,11 @@ const loadCarousel = () => {
                 nav: false,
             },
             600: {
-                items: 1,
+                items: 2,
                 nav: true,
             },
             1000: {
-                items: 1,
+                items: 3,
                 nav: true,
             },
         }

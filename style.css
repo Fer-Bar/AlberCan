@@ -385,7 +385,7 @@ header .navbar .dropdown-menu .dropdown-item.active {
   left: -60px!important;
 }
 
-.owl-carousel.major-carousel .owl-nav .owl-prev {
+.owl-carousel.major-carousel .owl-nav .owl-next {
   right: -60px!important;
 }
 

@@ -198,7 +198,7 @@ header .navbar .dropdown-menu .dropdown-item.active {
 .owl-carousel.home-slider .slider-item {
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  background-position: center center;
+  background-position: center center !important;
   height: calc(100vh - 117px);
   min-height: 700px;
   position: relative;

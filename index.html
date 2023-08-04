@@ -56,34 +56,51 @@
         </div>
       </nav>
     </header>
-
-    <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background: url('./images/bg4.jpg');">
-        <div class="container">
-          <div class="row slider-text align-items-center">
-            <div class="col-md-6 col-sm-12">
-              <span class="title cursive"> Good and adorable dog, 2yrs. old</span>
-              <h1>Needs a Caring Parent</h1>
-              <p>Lorem ipsun dolor sit amet, consectetur adipisicing elit. commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reicindis</p>
-              <p><a href="#" class="btn btn-primary">Lean More</a></p>
-            </div>
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+  
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+          <img src="https://images.unsplash.com/photo-1579033461380-adb47c3eb938?fit=crop&w=1964&q=100" class="d-block w-100 c-img" alt="Slide 1">
+          <div class="carousel-caption top-0 mt-4">
+              <p class="text-uppercase fs-3 mt-5">Descubre un nuevo amigo</p>
+              <h1 id="carousel-main-title" class="display-3 fw-bolder text-capitalize">Adopta una mascota</h1>
+              <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Adopta ahora</button>
           </div>
         </div>
-      </div>
-
-      <div class="slider-item" style="background: url('./images/bg5.jpg');">
-        <div class="container">
-          <div class="row slider-text align-items-center">
-            <div class="col-md-6 col-sm-12">
-              <span class="title cursive"> Nice and loving Cat, 3yrs. old</span>
-              <h1>Needs a Caring Parent</h1>
-              <p>Lorem ipsun dolor sit amet, consectetur adipisicing elit. commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reicindis</p>
-              <p><a href="#" class="btn btn-primary">Lean More</a></p>
+        <div class="carousel-item c-item">
+            <img src="https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?fit=crop&w=2134&q=100" class="d-block w-100 c-img" alt="Slide 2">
+            <div class="carousel-caption top-0 mt-4">
+                <p class="text-uppercase fs-3 mt-5">La temporada de adopción ha llegado</p>
+                <p class="display-3 fw-bolder text-capitalize">3 mascotas disponibles</p>
+                <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Adopta ahora</button>
             </div>
-          </div>
         </div>
+        <div class="carousel-item c-item">
+            <img src="https://images.unsplash.com/photo-1612686635542-2244ed9f8ddc?fit=crop&w=2070&q=100" class="d-block w-100 c-img" alt="Slide 3">
+            <div class="carousel-caption top-0 mt-4">
+                <p class="text-uppercase fs-3 mt-5">Actividades con tu nueva mascota</p>
+                <p class="display-3 fw-bolder text-capitalize">Ve de paseo con tu perro</p>
+                <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Adopta ahora</button>
+            </div>
+        </div>
+      
       </div>
-    </section>
+      <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>   
+    <!-- carousel -->
+    
 
     <!-- acordeon -->
     
@@ -211,81 +228,6 @@
           </div>
         </div>
 
-        <div class="row">
-          <div class="major-carousel js-carousel owl-carousel">
-
-            <div>
-              <div class="media media-custom d-block text-left">
-                <a href="#">
-                  <img src="./images/pet1.jpg" alt="Image placeholder" class="img-fluid">
-                </a>
-                <div class="media-body">
-                  <h3 class="text-black mt-0">
-                    <a href="#" class="text-black">Bulldog <span class="age">2 years. old</span>
-                    </a>
-                  </h3>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <div class="media media-custom d-block text-left">
-                <a href="#">
-                  <img src="./images/pet4.jpg" alt="Image placeholder" class="img-fluid">
-                </a>
-                <div class="media-body">
-                  <h3 class="text-black mt-0">
-                    <a href="#" class="text-black">Bulldog <span class="age">2 years. old</span>
-                    </a>
-                  </h3>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <div class="media media-custom d-block text-left">
-                <a href="#">
-                  <img src="./images/pet3.jpg" alt="Image placeholder" class="img-fluid">
-                </a>
-                <div class="media-body">
-                  <h3 class="text-black mt-0">
-                    <a href="#" class="text-black">Bulldog <span class="age">2 years. old</span>
-                    </a>
-                  </h3>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <div class="media media-custom d-block text-left">
-                <a href="#">
-                  <img src="./images/pet2.jpg" alt="Image placeholder" class="img-fluid">
-                </a>
-                <div class="media-body">
-                  <h3 class="text-black mt-0">
-                    <a href="#" class="text-black">Bulldog <span class="age">2 years. old</span>
-                    </a>
-                  </h3>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <div class="media media-custom d-block text-left">
-                <a href="#">
-                  <img src="./images/bg5.jpg" alt="Perro criollo." class="img-fluid">
-                </a>
-                <div class="media-body">
-                  <h3 class="text-black mt-0">
-                    <a href="#" class="text-black">Alex <span class="age">21 years. old</span>
-                    </a>
-                  </h3>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
       </div>
 
     </section>

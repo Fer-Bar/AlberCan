@@ -1,66 +1,30 @@
-$('.home-slider.owl-carousel').owlCarousel({
-    loop: true,
-    autoplay: true,
-    margin: 10,
-    items: 1,
-    animateOut: 'fadeOut',
-    animateIn: 'fadeIn',
-    nav: true,
-    navText: ["<span class='fa-solid fa-chevron-left'></span>", "<span class='fa-solid fa-chevron-right'></span>"],
-    responsive: {
-        0: {
-            items: 1,
-            nav: false,
-        },
-        600: {
-            items: 1,
-            nav: false,
-            mouseDrag: false,
-        },
-        1000: {
-            items: 1,
-            nav: true,
-            mouseDrag: false,
-        },
-    }
-})
-
-$('.major-carousel.js-carousel.owl-carousel').owlCarousel({
-  loop: true,
-  autoplay: true,
-  stagePadding:7,
-  margin: 20,
-  animateOut: "fadeOut",
-  animateIn: "fadeIn",
-  nav: true,
-  autoplayHoverPause: true,
-  items: 3,
-  navText: ["<span class='fa-solid fa-chevron-left'></span>", "<span class='fa-solid fa-chevron-right'></span>"],
-  responsive:{
-      0:{
-          items: 1,
-          nav: false,
-      },
-      600:{
-          items: 2,
-          nav: false,
-      },
-      1000:{
-          items: 3,
-          nav: true,
-          loop: true,
-      }
-  }
-})
-
-// const loadMainCarousel = () => {
+// Carousel secondary
+const multipleCardCarousel = document.querySelector("#carouselExampleControls");
+// if (window.matchMedia("(min-width: 768px)").matches) {
+//   const carousel = new bootstrap.Carousel(multipleCardCarousel, {
+//     interval: false,
+//   });
+//   const carouselWidth = document.querySelector(".carousel-inner").scrollWidth;
+//   const cardWidth = document.querySelector(".carousel-item-secondary").offsetWidth;
+//   let scrollPosition = 0;
+//   document
+//     .querySelector("#carouselExampleControls .carousel-control-next")
+//     .addEventListener("click", function () {
+//       if (scrollPosition < carouselWidth - cardWidth * 4) {
+//         scrollPosition += cardWidth * 3;
+//         document.querySelector("#carouselExampleControls .carousel-inner").scrollLeft =
+//           scrollPosition;
+//       }
+//     });
+//   document
+//     .querySelector("#carouselExampleControls .carousel-control-prev")
+//     .addEventListener("click", function () {
+//       if (scrollPosition > 0) {
+//         scrollPosition -= cardWidth * 3;
+//         document.querySelector("#carouselExampleControls .carousel-inner").scrollLeft =
+//           scrollPosition;
+//       }
+//     });
+// } else {
+//   multipleCardCarousel.classList.add("slide");
 // }
-
-//   // video 3
-// const loadSecundaryCarousel = () => {
-// }
-
-// $(document).ready(function () {
-//     loadMainCarousel();
-//     loadSecundaryCarousel();
-//   })

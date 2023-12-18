@@ -1,4 +1,9 @@
 # Albercan Project
+<div style="text-align: center">
+  <img src="https://github.com/Fer-Bar/AlberCan/assets/90936639/564cbda1-2399-42c2-bbcc-3116fbe97635" width="250" height="250">
+</div>
+
+
 Esta página web tiene como objetivo promover la adopción responsable de los animales que viven en albergues y necesitan un nuevo hogar. Aquí podrás conocer a los animales disponibles, sus características y necesidades, y contactar con los albergues para iniciar el proceso de adopción. Nuestra misión es darles una segunda oportunidad a estos seres que merecen amor y cuidado.
 
 # Detalles del Proyecto

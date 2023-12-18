@@ -4,7 +4,7 @@ const firstCardWidth = carousel.querySelector(".card-secondary").offsetWidth;
 const arrowBtns = document.querySelectorAll(".wrapper-carousel i");
 const carouselChildrens = [...carousel.children];
 
-let isDragging = false, isAutoPlay = true, startX, startScrollLeft, timeoutId;
+let isDragging = false, isAutoPlay = false, startX, startScrollLeft, timeoutId;
 
 // Get the number of cards that can fit in the carousel at once
 let cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);

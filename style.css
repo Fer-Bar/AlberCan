@@ -454,7 +454,7 @@ header .navbar .dropdown-menu .dropdown-item.active {
 /* Second carousel */
 /* Import Google font - Poppins */
 .wrapper-carousel {
-  max-width: 1100px;
+  /* max-width: 1100px; */
   width: 100%;
   position: relative;
 }
@@ -485,7 +485,7 @@ header .navbar .dropdown-menu .dropdown-item.active {
 .wrapper-carousel .carousel-secondary{
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: calc((100% / 3) - 12px);
+  grid-auto-columns: calc((100% / 3));
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   gap: 16px;
@@ -545,14 +545,14 @@ header .navbar .dropdown-menu .dropdown-item.active {
   font-size: 1.31rem;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 990px) {
   .wrapper-carousel .carousel-secondary {
-    grid-auto-columns: calc((100% / 2) - 9px);
+    grid-auto-columns: calc((100% / 2));
   }
 }
 
 @media screen and (max-width: 600px) {
   .wrapper-carousel .carousel-secondary {
-    grid-auto-columns: 100%;
+    grid-auto-columns: 110%;
   }
 }

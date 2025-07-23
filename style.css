@@ -558,13 +558,13 @@ header .navbar .dropdown-menu .dropdown-item.active {
 
 @media screen and (max-width: 990px) {
   .wrapper-carousel .carousel-secondary {
-    grid-auto-columns: calc((100% / 2));
+    grid-auto-columns: calc(100% / 2);
   }
 }
 
 @media screen and (max-width: 600px) {
   .wrapper-carousel .carousel-secondary {
-    grid-auto-columns: 110%;
+    grid-auto-columns: 100%;
   }
 }
 
